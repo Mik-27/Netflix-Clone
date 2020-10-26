@@ -1,6 +1,6 @@
-import { createGlobalStyles } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyles = createGlobalStyles`
+export const GlobalStyles = createGlobalStyle`
     html, body {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
@@ -9,4 +9,4 @@ export const GlobalStyles = createGlobalStyles`
         color: #333333;
         font-size: 16px;
     }
-`
+`;
