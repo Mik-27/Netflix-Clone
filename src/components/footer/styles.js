@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 	display: flex;
-	padding: 50px 76px;
+	padding: 50px 80px;
 	margin: auto;
 	max-width: 1000px;
 	flex-direction: column;
@@ -21,7 +21,7 @@ export const Column = styled.div`
 export const Row = styled.div`
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-	grid-gap: 15px;
+	grid-gap: 10px;
 
 	@media (max-width: 1000px) {
 		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
