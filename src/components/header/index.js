@@ -1,0 +1,23 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import { Background, Logo, Container, ButtonLink } from "./styles";
+
+export default function Header({ bg = true, children, ...restProps }) {
+	return bg ? <Background {...restProps}>{children}</Background> : { children };
+}
+
+Header.Frame = function HeaderFrame({ children, ...restProps }) {
+	return <Container {...restProps}>{children}</Container>;
+};
+
+Header.Logo = function HeaderLogo({ to, ...restProps }) {
+	return (
+		<Link to={to}>
+			<Logo {...restProps} />
+		</Link>
+	);
+};
+
+Header.ButtonLink = function HeadeerButtonLink({ children, ...restProps }) {
+	return <ButtonLink {...restProps}>{children}</ButtonLink>;
+};
