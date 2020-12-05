@@ -32,6 +32,22 @@ export const Container = styled.div`
 	}
 `;
 
+export const TextLink = styled.p`
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+	margin-right: 30px;
+	font-weight: ${({ active }) => (active === "true" ? "700" : "normal")};
+
+	&:hover {
+		font-weight: bold;
+	}
+
+	&:last-of-type {
+		margin-right: 0;
+	}
+`;
+
 export const Group = styled.div`
 	display: flex;
 	align-items: center;
@@ -44,21 +60,6 @@ export const Picture = styled.button`
 	width: 32px;
 	height: 32px;
 	cursor: pointer;
-`;
-
-export const TextLink = styled.p`
-	color: white;
-	text-decoration: none;
-	margin-right: 30px;
-	font-weight: ${({ active }) => (active === true ? "700" : "normal")}
-
-	&:hover {
-		font-weight: bold;
-	}
-
-	&:last-of-type {
-		margin-right: 0;
-	}
 `;
 
 export const Dropdown = styled.div`
