@@ -73,7 +73,7 @@ Header.Search = function HeaderSearch({
 		<Search {...restProps}>
 			<SearchIcon
 				onClick={() => {
-					console.log(searchActive);
+					// console.log(searchActive);
 					setSearchActive((searchActive) => !searchActive);
 				}}
 			>
