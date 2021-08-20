@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> Renders the <Footer /> with populated data 1`] = `
+<div
+  class="sc-bdnylx idUBNA"
+>
+  <p
+    class="sc-eCApGN jjmvIi"
+  >
+    Question? Contact Us.
+  </p>
+  <p
+    class="sc-gKAblj fiwRSx"
+  />
+  <div
+    class="sc-dlnjPT gKsorO"
+  >
+    <div
+      class="sc-gtssRu qZoiH"
+    >
+      <a
+        class="sc-hKFyIo kHrrLr"
+        href="#"
+      >
+        FAQ
+      </a>
+      <a
+        class="sc-hKFyIo kHrrLr"
+        href="#"
+      >
+        Investor Relations
+      </a>
+      <a
+        class="sc-hKFyIo kHrrLr"
+        href="#"
+      >
+        Privacy
+      </a>
+      <a
+        class="sc-hKFyIo kHrrLr"
+        href="#"
+      >
+        Speed Test
+      </a>
+    </div>
+    <div
+      class="sc-gtssRu qZoiH"
+    >
+      <a
+        class="sc-hKFyIo kHrrLr"
+        href="#"
+      >
+        Help Centre
+      </a>
+      <a
+        class="sc-hKFyIo kHrrLr"
+        href="#"
+      >
+        Jobs
+      </a>
+      <a
+        class="sc-hKFyIo kHrrLr"
+        href="#"
+      >
+        Cookie Preference
+      </a>
+      <a
+        class="sc-hKFyIo kHrrLr"
+        href="#"
+      >
+        Legal Notices
+      </a>
+    </div>
+    <div
+      class="sc-gtssRu qZoiH"
+    >
+      <a
+        class="sc-hKFyIo kHrrLr"
+        href="#"
+      >
+        Account
+      </a>
+      <a
+        class="sc-hKFyIo kHrrLr"
+        href="#"
+      >
+        Ways to Watch
+      </a>
+      <a
+        class="sc-hKFyIo kHrrLr"
+        href="#"
+      >
+        Corporate Information
+      </a>
+      <a
+        class="sc-hKFyIo kHrrLr"
+        href="#"
+      >
+        Netflix Originals
+      </a>
+    </div>
+    <div
+      class="sc-gtssRu qZoiH"
+    >
+      <a
+        class="sc-hKFyIo kHrrLr"
+        href="#"
+      >
+        Media Centre
+      </a>
+      <a
+        class="sc-hKFyIo kHrrLr"
+        href="#"
+      >
+        Terms of Use
+      </a>
+      <a
+        class="sc-hKFyIo kHrrLr"
+        href="#"
+      >
+        Contact Us
+      </a>
+    </div>
+  </div>
+  <p
+    class="sc-gKAblj fiwRSx"
+  />
+  <div
+    class="sc-dlnjPT gKsorO"
+  >
+    <div
+      class="sc-gtssRu qZoiH"
+    >
+      <p
+        class="sc-jSFkmK daKsOY"
+      >
+        Netflix India
+      </p>
+    </div>
+  </div>
+</div>
+`;
